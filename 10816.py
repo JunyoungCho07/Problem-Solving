@@ -20,3 +20,6 @@ for i in chk:
     print(hashmap[i], end=' ')
   else:
     print('0' , end=' ')
+
+
+#https://chancoding.tistory.com/45
