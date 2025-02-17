@@ -1,3 +1,4 @@
+#메모리 초과 뜸...
 import sys
 input = sys.stdin.readline
 
