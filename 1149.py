@@ -10,9 +10,9 @@ if __name__ == '__main__':
         L.append(list(map(int,input().split())))
 
     # setting
-    R = [float('inf')] * n
-    G = [float('inf')] * n
-    B = [float('inf')] * n
+    R = [float('inf')] * n# 마지막 집을 R로 칠했을때, 비용의 최소 값
+    G = [float('inf')] * n# 마지막 집을 G로 칠했을때, 비용의 최소 값
+    B = [float('inf')] * n# 마지막 집을 B로 칠했을때, 비용의 최소 값
     R[0] = L[0][0]
     G[0] = L[0][1]
     B[0] = L[0][2]
